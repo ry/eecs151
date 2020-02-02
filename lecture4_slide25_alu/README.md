@@ -1,5 +1,8 @@
+# Will this synthesize into 2 adders and 2 subtractors or 1 of each?
+
 Check synthesis using YOSYS
 
+```
 > read_verilog alu_big.v
 > synth_ice40
 
@@ -27,3 +30,4 @@ Check synthesis using YOSYS
    Number of cells:               1760
      SB_CARRY                      144
      SB_LUT4                      1616
+```
